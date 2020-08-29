@@ -11,6 +11,7 @@ https://www.getmonero.org/
 
 | Key | Value |
 |-----|-------|
+| Version | `v0.16.0.3` |
 | Volume | `/data` |
 | RPC Port | `18081` |
 | RPC User | `monero` |
