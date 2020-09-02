@@ -9,6 +9,8 @@ Dockerized Monero Daemon
 
 https://www.getmonero.org/
 
+https://github.com/monero-project/monero/releases
+
 | Key | Value |
 |-----|-------|
 | Version | `v0.16.0.3` |
