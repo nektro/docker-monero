@@ -19,4 +19,4 @@ ARG folder
 COPY --from=stage1 /the/workdir/${folder}/monerod /app/monerod
 VOLUME /data
 EXPOSE 18081
-ENTRYPOINT [ "/app/monerod", "--non-interactive", "--data-dir=/data", "--rpc-bind-port=18081", "--rpc-login=monero:password" ]
+ENTRYPOINT /app/monerod --prune-blockchain --data-dir="/data" --rpc-bind-port="18081" --rpc-login="monero:password"
